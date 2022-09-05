@@ -39,10 +39,15 @@ h1 {
   line-height: 1.1;
 }
 
+article {
+  text-align: center;
+  line-height: 2.4em;
+  width: 60vw;
+}
+
 p {
   color: #ccc;
-  font-size: 2.0em;
-  text-align: center;
+  font-size: 1.8em;
 }
 
 #app {
@@ -62,6 +67,17 @@ p {
 }
 .logo.vanilla:hover {
   filter: drop-shadow(0 0 2em #3178c6aa);
+}
+
+#mrtoad {
+  background-color: #ffcd42;
+  border-radius: 20px;
+  transition: transform 0.4s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .card {
